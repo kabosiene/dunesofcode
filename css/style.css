@@ -134,6 +134,7 @@ footer {
   font-size: 2rem;
   text-decoration: none; /* Remove underline by default */
 }
+
 /* Style for "hello" span */
 .email-link .email-highlight {
   color: black; /* Default to black */
@@ -148,6 +149,7 @@ footer {
 .email-link:hover .email-highlight {
   color: #BE3A34; /* Make "hello" red */
 }
+
 /* Hover and focus effect */
 .email-link:hover .highlight {
   color: #222; /* Make "hello" red */
@@ -157,8 +159,6 @@ footer {
 .email-link:focus {
   text-decoration: none; /* Optional: Prevent underline on hover/focus */
 }
-
-
 
 
 /* ==========================================================================
@@ -246,7 +246,6 @@ footer {
 
 @media only screen and (max-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
-
   html {
     font-size: 0.9rem; /* Reduce font size */
   }
@@ -276,9 +275,9 @@ footer {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 

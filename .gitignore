@@ -4,4 +4,8 @@
 node_modules
 dist
 .cache
-.idea
+
+# Ignore RubyMine project files
+.idea/
+.idea/**/*
+*.iml

@@ -244,8 +244,35 @@ footer {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (max-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
+
+  html {
+    font-size: 0.9rem; /* Reduce font size */
+  }
+
+  .glacier-logo {
+    font-size: 5rem; /* Adjust the logo size */
+  }
+
+  .email-link {
+    font-size: 1.5rem; /* Adjust email link size */
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 0.8rem; /* Further reduce font size for smaller phones */
+  }
+
+  .glacier-logo {
+    font-size: 3rem; /* Reduce the logo size even more */
+  }
+
+  .email-link {
+    font-size: 1.2rem; /* Adjust email link size */
+  }
+
 }
 
 @media print,

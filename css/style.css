@@ -97,6 +97,7 @@ body {
   min-height: 100vh; /* Full viewport height */
   background-color: #fafafa; /* Optional background color */
   font-family: 'Glacial Indifference', sans-serif;
+  overflow-x: hidden;
 }
 
 
